@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre São José dos Campos</title>
+    <link rel="stylesheet" href="style/style.css">
+
+    <!-- Bootstrap do carroussel-->
+    <link rel="stylesheet" href="style/bootstrap.css">
+</head>
+<body>
+    <!--Nav Bar-->
+    <header>
+        <nav id="nav-bar">
+            <p align="center"><a href="index.html" id="titulo" target="_blank">São José dos Campos</a></p>
+            <li class="nav-item dropdown">
+                <ul><a href="#" id="sobre" class="nav-link">Sobre a Cidade</a></ul>
+                <ul><a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Pontos Turísticos</a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="pontos turisticos/santos.html" target="_blank">Parque Santos Dumont</a></li>
+                    <li><a class="dropdown-item" href="pontos turisticos/vicentina.html" target="_blank">Vicentina Aranha</a></li>
+                    <li><a class="dropdown-item" href="pontos turisticos/memorial.html" target="_blank">Memorial Aeroespacial Brasileiro</a></li>    
+                  </ul>
+                </ul>
+                <ul><a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Pontos Comerciais</a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="pontos comerciais/vale_sul.html" target="_blank">Vale Sul Shopping</a></li>
+                    <li><a class="dropdown-item" href="pontos comerciais/colinas.html" target="_blank">Colinas Shopping</a></li>
+                    <li><a class="dropdown-item" href="pontos comerciais/centervale.html" target="_blank">CenterVale Shopping</a></li>    
+                  </ul>
+                </ul>
+                </li>  
+            </li>
+        </nav>
+    </header>
+
+    <!--Título-->
+    <div>
+      <h2 align="center">História de São José dos Campos</h2>
+    </div>
+
+    <!-- Carroussel -->
+    <div>
+      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="img/sjc_principal/sao-jose-ponte-estaiada.jpg" alt="Primeiro Slide" width="100" height="700">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="img/sjc_principal/sao-jose-campos-turismo.jpg" alt="Segundo slide" width="100" height="700">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="img/sjc_principal/Vista_do_Parque_da_Cidade,_São_José_dos_Campos_SP.jpg" alt="Terceiro slide" width="100" height="700">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="img/sjc_principal/sao-jose-dos-campos-vicentina.jpg" alt="Quarto slide" width="100" height="700">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Próximo</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Anterior</span>
+        </a>
+      </div>
+    </div>
+
+    <!-- Main da Página -->
+    <main>
+      <div>
+        <p>De início a cidade era apenas um aldeia, local que se encontrava indígenas e colonizadores, se estabeleceu uma política colonial de aldeamento no início do século XVI, em que os colonos e jesuítas começaram sua luta pelo controle da mão de obra indígena. Originou-se então um núcleo de Aldeia em uma fazenda de gado na região do Rio Comprido, que tinha como dono alguns jesuítas, e posteriormente o padre Manoel de Leão transferiu esse aldeamento para um local definitivo, em que hoje se encontra a Igreja Matriz da cidade, apartir desse núcleo que se deu origem à São José, o local também se encontrava numa posição estratégica em caso de invasões.</p>
+        <p>Em meados do século 18, os jesuítas foram expulsos do Brasil e as posses da ordem foram confiscadas por Portugal, ao mesmo tempo em que o popular Morgado de Mateus assumiu o governo de São Paulo, e de forma breve, por conta do desejo de reerguer a capitania, em um cenário no qual Minas Geras se destacava fortemente pela atividade mineiradora, uma de suas providências foi elevar algumas aldeias para a categoria de vila, e uma delas foi São José, com o objetivo de aumentar a arrecadação provincial, por conta disso foram inaugurados o pelourinho e a Câmara Municipal.</p>
+        <p>Esta nova condição de São José não teve grande impacto até meados do século 19, quando começou a iniciar um crescimento econômico, principalmente pela produção de algodão destinado a exportação para a indústria têxtil inglesa.</p>
+        <p>Sobre o desenvolvimento mais abundante da cidade, pode ser citado o início do investimento em infraestrutura, com foco principal em saneamento básico primariamente, que teve início no governo Getúlio Vargas com a transformação do município em estância climatica e hidromineral, que mais adiante também impulsionou investimentos em desenvolvimento industrial.</p>
+        <p>A industrialização teve seu impulso maior a partir da instalação em 1950 do CTA, o Centro Técnico Aeroespacial, juntamente com a inauguração da Via Dutra. Ao longo das décadas a economia industrial foi se fortalecendo e dessa forma a cidade começou a crescer demograficamente, principalmente pelas oportunidades que a modernização oferece, fazendo também com que a cidade começasse a acelerar seu processo de urbanização, assim progredindo em diversos outros pontos até chegar aos dias de hoje.</p>
+      </div>
+    </main>
+
+    <!-- Rodapé da Página -->
+    <div>
+      <footer>
+        <p><a href="https://www.sjc.sp.gov.br/" target="_blank" id="site">Site oficial da prefeitura de São José dos Campos</a></p>
+      </footer>
+    </div>
+
+    
+</body>
+<!-- Script do Carrousel -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
+<!-- Scripts do Bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</html>
